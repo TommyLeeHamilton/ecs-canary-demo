@@ -3,8 +3,8 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-2:041906867979:task-definition/tutorial-task-def:5"
+        TaskDefinition: "arn:aws:ecs:us-east-2:906798550388:task-definition/tutorial-task-def:2"
         LoadBalancerInfo:
-          ContainerName: "nginx"
+          ContainerName: "sample-app"
           ContainerPort: 80
         PlatformVersion: "LATEST"
